@@ -1,5 +1,10 @@
 console.log('Hello World!');
 
+prompt(
+  `👇 If you want to play me  then Read Me 👇
+  Please Cancel Me twice first to see the Instructions, then you will know what to do, that will be intrusting I promise...!`
+);
+
 const options = ['rock', 'paper', 'scissors'];
 
 function getComputerChoice() {
@@ -22,7 +27,7 @@ function getHumanChoice() {
     return humanChoice;
   } else {
     // If the input is not valid, prompt again recursively
-    alert('Invalid choice! Please enter rock, paper, or scissors.');
+    alert('Invalid choice! Please enter rock✊ , paper✋ , or scissors✌️ .');
     return getHumanChoice();
   }
 }
