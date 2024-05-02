@@ -121,4 +121,4 @@ function playGame() {
 }
 
 // Call the playGame function to start the game
-// playGame();
+playGame();
